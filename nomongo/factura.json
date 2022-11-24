@@ -1,0 +1,26 @@
+[
+  {
+    "fecha": "2022-11-22",
+    "codigovehiculo": "2020",
+    "descripcionvehiculo": "blablabla",
+    "valorvehiculo": "890000",
+    "impuestos": "20000",
+    "valortotal": "980000"
+  },
+  {
+    "fecha": "2022-11-23",
+    "codigovehiculo": "2020",
+    "descripcionvehiculo": "blablabla",
+    "valorvehiculo": "890000",
+    "impuestos": "20000",
+    "valortotal": "980000"
+  },
+  {
+    "fecha": "2022-11-22",
+    "codigovehiculo": "2020",
+    "descripcionvehiculo": "descripcion del vehiculo",
+    "valorvehiculo": "780000",
+    "impuestos": "10000",
+    "valortotal": "880000"
+  }
+]

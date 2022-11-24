@@ -1,0 +1,44 @@
+###
+GET  http://127.0.0.1:8000
+
+###
+POST http://127.0.0.1:8000
+Content-Type: application/json
+
+{ 
+  "Nombre": "Juan",  
+  "Curso": "Aplicaciones Web",
+  "Edad": 35
+}
+
+###
+PUT http://127.0.0.1:8000/637c0fb4f6a7d1fbbb4c58d7
+Content-Type: application/json
+
+{ 
+  "Nombre": "Juan",  
+  "Curso": "Aplicaciones Web",
+  "Edad": 40
+}
+
+###
+DELETE http://127.0.0.1:8000/637c0fb4f6a7d1fbbb4c58d7
+
+###
+GET  http://127.0.0.1:8001/select-factura
+
+###
+POST http://127.0.0.1:8001/insert-factura
+Content-Type: application/json
+
+{   
+  "fecha": "2022-11-22",
+  "codigovehiculo": "2020",
+  "descripcionvehiculo": "descripcion del vehiculo",
+  "valorvehiculo": "780000",
+  "impuestos": "10000",
+  "valortotal": "880000"  
+}
+
+###
+GET  http://127.0.0.1:8001
